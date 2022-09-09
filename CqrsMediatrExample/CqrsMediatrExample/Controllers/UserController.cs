@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CqrsMediatrExample.Commands;
+using CqrsMediatrExample.DataStore;
 using CqrsMediatrExample.Notifications;
 using CqrsMediatrExample.Queries;
 using MediatR;

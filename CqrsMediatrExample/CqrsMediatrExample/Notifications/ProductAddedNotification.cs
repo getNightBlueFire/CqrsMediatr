@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using CqrsMediatrExample.DataStore;
+using MediatR;
 
 namespace CqrsMediatrExample.Notifications
 {

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace CqrsMediatrExample;
+namespace CqrsMediatrExample.DataStore;
 
 public class User
 {

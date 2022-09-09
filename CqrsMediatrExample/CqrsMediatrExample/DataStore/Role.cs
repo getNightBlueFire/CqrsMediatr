@@ -1,4 +1,4 @@
-namespace CqrsMediatrExample;
+namespace CqrsMediatrExample.DataStore;
 
 public enum Role
 {

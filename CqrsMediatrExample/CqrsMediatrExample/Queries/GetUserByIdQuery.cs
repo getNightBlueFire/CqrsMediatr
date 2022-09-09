@@ -1,3 +1,4 @@
+using CqrsMediatrExample.DataStore;
 using MediatR;
 
 namespace CqrsMediatrExample.Queries;

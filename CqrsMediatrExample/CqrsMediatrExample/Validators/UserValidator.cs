@@ -1,3 +1,4 @@
+using CqrsMediatrExample.DataStore;
 using FluentValidation;
 
 namespace CqrsMediatrExample.Validators;

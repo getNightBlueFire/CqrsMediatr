@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using CqrsMediatrExample.DataStore;
 using MediatR;
 
 namespace CqrsMediatrExample.Queries

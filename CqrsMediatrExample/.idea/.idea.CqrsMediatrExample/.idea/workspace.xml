@@ -4,11 +4,44 @@
     <projectFile profileName="CqrsMediatrExample">CqrsMediatrExample/CqrsMediatrExample.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aa09b28-be03-46be-a248-6a91d0dbd76f" name="Changes" comment="-m" />
+    <list default="true" id="3aa09b28-be03-46be-a248-6a91d0dbd76f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CqrsMediatrExample/DataStore/Blog.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CqrsMediatrExample/DataStore/Post.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CqrsMediatrExample/DataStore/ProjectDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsMediatrExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsMediatrExample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CqrsMediatrExample/Commands/AddProductCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsMediatrExample/Commands/AddProductCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CqrsMediatrExample/Commands/AddUserCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsMediatrExample/Commands/AddUserCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CqrsMediatrExample/Commands/UpdateUserCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsMediatrExample/Commands/UpdateUserCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CqrsMediatrExample/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsMediatrExample/Controllers/ProductsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CqrsMediatrExample/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsMediatrExample/Controllers/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CqrsMediatrExample/CqrsMediatrExample.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsMediatrExample/CqrsMediatrExample.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CqrsMediatrExample/Notifications/ProductAddedNotification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsMediatrExample/Notifications/ProductAddedNotification.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CqrsMediatrExample/Notifications/UserAddedNotification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsMediatrExample/Notifications/UserAddedNotification.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CqrsMediatrExample/Notifications/UserUpdateNotification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsMediatrExample/Notifications/UserUpdateNotification.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CqrsMediatrExample/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsMediatrExample/DataStore/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CqrsMediatrExample/Queries/GetProductByIdQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsMediatrExample/Queries/GetProductByIdQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CqrsMediatrExample/Queries/GetProductsQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsMediatrExample/Queries/GetProductsQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CqrsMediatrExample/Queries/GetUserByIdQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsMediatrExample/Queries/GetUserByIdQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CqrsMediatrExample/Queries/GetUsersQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsMediatrExample/Queries/GetUsersQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CqrsMediatrExample/Role.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsMediatrExample/DataStore/Role.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CqrsMediatrExample/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsMediatrExample/DataStore/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CqrsMediatrExample/Validators/UserValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsMediatrExample/Validators/UserValidator.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CqrsMediatrExample/DataStore/FakeDataStore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CqrsMediatrExample/DataStore/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CqrsMediatrExample/DataStore/ProjectDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CqrsMediatrExample/DataStore/Role.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CqrsMediatrExample/Migrations/20220708091739_InitialCreate.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CqrsMediatrExample/Migrations/20220708091739_InitialCreate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CqrsMediatrExample/Migrations/ProjectDbContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CqrsMediatrExample/Notifications/UserUpdateNotification.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CqrsMediatrExample/Queries/GetProductByIdQuery.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -22,15 +55,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dmitriy/RiderProjects/cqrs-mediatr-aspnet-core&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="CqrsMediatrExample" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/CqrsMediatrExample/CqrsMediatrExample.csproj" />
@@ -63,7 +98,14 @@
       <workItem from="1656663473902" duration="5206000" />
       <workItem from="1656679268926" duration="2048000" />
       <workItem from="1656914044027" duration="2411000" />
-      <workItem from="1657178826045" duration="1900000" />
+      <workItem from="1657178826045" duration="12427000" />
+      <workItem from="1657287725053" duration="600000" />
+      <workItem from="1657521384119" duration="1843000" />
+      <workItem from="1657620331940" duration="2456000" />
+      <workItem from="1657786357008" duration="1201000" />
+      <workItem from="1661956779908" duration="388000" />
+      <workItem from="1662641320544" duration="5000" />
+      <workItem from="1662710937181" duration="4512000" />
     </task>
     <task id="LOCAL-00001" summary="-m">
       <created>1657264307905</created>
@@ -72,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657264307905</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="-m">
+      <created>1657264666211</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657264666211</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,7 +134,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

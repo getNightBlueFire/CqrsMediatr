@@ -4,6 +4,7 @@ using CqrsMediatrExample.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using CqrsMediatrExample.DataStore;
 
 namespace CqrsMediatrExample.Controllers
 {
